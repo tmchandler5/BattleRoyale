@@ -1,0 +1,6 @@
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\bin\Debug\BattleRoyale.exe.config
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\bin\Debug\BattleRoyale.exe
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\bin\Debug\BattleRoyale.pdb
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\obj\Debug\BattleRoyale.csprojResolveAssemblyReference.cache
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\obj\Debug\BattleRoyale.exe
+C:\Users\Jeremy\Desktop\GitHub\BattleRoyale\BattleRoyale\obj\Debug\BattleRoyale.pdb
