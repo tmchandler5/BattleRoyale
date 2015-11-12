@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleRoyale.Character_Resources
+namespace Homework1
 {
-    class Character
+    class Writing_to_Files
     {
-        string name;
-        int health;
-
     }
 }

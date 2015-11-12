@@ -8,14 +8,7 @@ namespace BattleRoyale.Character_Resources
 {
     class Player : Character
     {
-        public Player()
-        {
-            Random rnd = new Random();
-            Strength = rnd.Next(5, 11);
-            System.Threading.Thread.Sleep(100);
-            Armor = rnd.Next(5, 11);
-        }
-
+        int score;
 
     }
 }

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Homework1;
+using Homework1.Math;
+
 
 namespace Homework1
 {
@@ -54,32 +57,31 @@ namespace Homework1
                     Console.WriteLine(y);
             }
 
+            MathStuff myMathStuff = new MathStuff();
+
+            MathStuff myMathStuff2 = new MathStuff(55);
+
+
             //2.1
-            Console.WriteLine(problem2("My puppies"));
+            Console.WriteLine(myMathStuff.addToMavisTailLength(6));
 
             //4
             Console.WriteLine("Please enter a string:");
-            Console.WriteLine(problem2(Console.ReadLine()));
+            Console.WriteLine(myMathStuff.addToMavisTailLength(Int32.Parse(Console.ReadLine())));
+
+            
 
             Console.WriteLine("Please enter a integer:");
             int inputOne = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Please enter another integer:");
             int inputTwo = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine(product1(inputOne, inputTwo));
+            Console.WriteLine(MathStuff.product1(inputOne, inputTwo));
 
 
             System.Threading.Thread.Sleep(999999);
         }
-        static string problem2(string input)
-        {
-            return input + " are the best.";
-        }
-
-        static int product1(int numOne, int numTwo)
-        {
-            return numOne * numTwo;
-        }
+        
         
         
     }
